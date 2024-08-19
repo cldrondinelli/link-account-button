@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-item{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    border-radius: 20%;
+    animation: transform 0.5s ease 0s;
+}
+
+.link-item:hover {
+    transform: translateY(-10px);
+    color: #ffffff;
+    background-color: #000000;
+}
